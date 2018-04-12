@@ -11,13 +11,13 @@ $(document).ready(function(e){
 			escribehistoria('la app se pausó');
 	},false);//pause
 	document.addEventListener("resume",function(){
-		ecribehistoria('la app se reinició');
+		    ecribehistoria('la app se reinició');
 	},false);//resume
 	document.addEventListener("online",function(){
-		escribehistoria('la app se conecto a la red');
+		    escribehistoria('la app se conecto a la red');
 	},false);//se conecto
 	document.addEventListener("offline",function(){
-		escribehistoria('la app se desconecto de la red');
+		    escribehistoria('la app se desconecto de la red');
 	},false);
 	
 	
